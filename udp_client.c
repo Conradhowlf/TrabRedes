@@ -14,8 +14,8 @@
 #include <netdb.h>
 #include <unistd.h>
 #include <errno.h>
-#include <common.h>
-#include <weather.h>
+#include "common.h"
+#include "weather.h"
 
 int main(int argc, char *argv[]) {
     struct addrinfo hints, *res, *ressave;
