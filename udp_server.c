@@ -19,10 +19,10 @@
 #include <netdb.h>
 #include <unistd.h>
 #include <sys/types.h>
-#include <common.h>
-#include <weather.h>
-#include <sock_ipv_4.h>
-#include <sock_ipv_6.h>
+#include "common.h"
+#include "weather.h"
+#include "sock_ipv_4.h"
+#include "sock_ipv_6.h"
 
 int main(int argc, char *argv[]) {
     struct  sockaddr_in cli_addr;
