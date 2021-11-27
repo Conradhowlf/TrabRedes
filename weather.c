@@ -1,7 +1,7 @@
 #include <stdlib.h> // For rand()
 #include <time.h>
 #include <arpa/inet.h>
-#include <weather.h>
+#include "weather.h"
 
 // A substitute for the function that would really do the work
 // Numbers in the range [min, max]
