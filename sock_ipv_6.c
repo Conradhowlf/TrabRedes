@@ -7,7 +7,7 @@
 #include <netdb.h>
 #include <unistd.h>
 #include <sys/types.h>
-#include <common.h>
+#include "common.h"
 
 int socket_ipv_6(int sd, int optval) {
     struct  sockaddr_in6 srv_addr6;
