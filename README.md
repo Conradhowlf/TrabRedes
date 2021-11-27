@@ -1,4 +1,5 @@
 # TrabRedes
+Alunos: Conrado R Bibiano e Willian Augusto
 Comandos:
 ./udpclient
 ./udpserver
